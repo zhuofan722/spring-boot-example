@@ -44,7 +44,7 @@ public class ValidationController {
 //        }
 //        log.info(sBuilder.toString());
 
-
+        System.out.println("-----------");
         if(result.hasErrors()){
             List<ObjectError> ls=result.getAllErrors();
             for (int i = 0; i < ls.size(); i++) {
