@@ -15,7 +15,7 @@ import javax.validation.constraints.NotEmpty;
 public class User {
     @NotEmpty(message = "用户名称不能为空。")
     private String userName;
-    @Range(max = 150, min = 1, message = "年龄范围应该在1-150内。")
+    @Range(max = 150, min = 5, message = "年龄范围应该在1-150内。")
     private int age;
 
     @NotEmpty(message = "密码不能为空")
